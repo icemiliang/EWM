@@ -70,8 +70,6 @@ print("Building complete")
 
 
 for it in range(max_iter):
-    z_batch = torch.randn(batch_size, nz, device=device)
-
     # OTS
     ot_loss = []
     w1_estimate = []
